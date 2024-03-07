@@ -1,0 +1,13 @@
+<div class="photo_gallery">
+    {%- for image in page.images -%}
+      <div class="gallery_item">
+        <a href="{{ image.filename }}" data-fancybox="gallery" data-caption="{{image.text}}">
+          <img class="thumbnail" src="{{ image.filename }}" />
+        </a>
+      </div>
+    {%- endfor -%}
+</div>
+
+<br><br>
+<hr>
+<script src="../assets/activate_fancybox.js"></script>
