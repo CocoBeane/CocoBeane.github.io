@@ -6,7 +6,7 @@ include_in_nav: true
 ---
 
 # Writing Portfolio
-Maybe there's some stuff here, I dunno.
+Please enjoy these samples of my past professional writing work.
 
 
 {% assign portfolio_pages = site.pages | where_exp:"item", "item.path contains 'writing/'" %}

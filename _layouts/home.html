@@ -7,15 +7,7 @@ layout: base
     <div class="row">
       <div class="col-md-12">
         <div class="hero-content">
-          {% if site.title != '' %}
-          <h1 class="text-center">{{site.title}}</h1>
-          {% endif %}
-          <p class="text-center">
-            {% if site.description != '' %}
-            {{site.description}}
-            {% endif %}
-          </p>
-
+          {{ content }}
           <div class="image">
             <img src="/img/it_me.png" alt="A picture of me" class="center"/>
           </div>
