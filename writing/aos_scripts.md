@@ -4,10 +4,7 @@ title: App Ops Script Runbook
 permalink: /writing/aos_scripts
 elevator_pitch: "An internal reference manual for non-technical workers to run Ruby"
 images:
-- { filename: "../img/aos_1.png", text: "One", hero: true}
-- { filename: "../img/aos_2.png", text: "Two"}
-- { filename: "../img/aos_3.png", text: "Three"}
-- { filename: "../img/aos_4.png", text: "Four"}
+- { filename: "../img/aos_1.png", text: "The main directory and basics page of the runbook", hero: true}
 ---
 
 {%- include portfolio_gallery.html -%}
