@@ -8,21 +8,85 @@
 Overrides to the default Minima Theme Styling
 --------------------------------------------------------------*/
 
-.site-header {
-  background-color: #efefef;
-  color: #2E4453;
+a:visited {
+  color: #111;
 }
 
-/*--------------------------------------------------------------
-Home Hero Styling
---------------------------------------------------------------*/
+/* Header */
+
+.site-header {
+  background-image: url("../img/site-header-background.png");
+  background-color: #fbf8ec;
+  color: #2E4453;
+  border-bottom: 5px solid #424242;
+}
+
+.site-logo {
+  width: 40%;
+  margin: 30px 30px 20px 50px;
+  vertical-align: left;
+  border: 5px solid #ffc62a;
+}
+
+.site-nav {
+  padding: 30px 50px 10px 30px;
+  a {
+    text-decoration-color: #ffc62a;
+    text-decoration-thickness: 5px;
+    font-size: 20px;
+    padding: 5px;
+  }
+}
+
+/* Index */
+
+.portfolio_tags {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-items: center;
+  row-gap: 75px;
+  padding: 20px;
+}
+
+.tag {
+  text-decoration: none;
+  font-size: 14px;
+  padding: 5px;
+  &:hover {
+    text-decoration-color: #ffc62a;
+    text-decoration-thickness: 5px;
+  }
+}
+
+/* Home */
+
+.column {
+  float: left;
+}
+
+.left {
+  width: 30%;
+}
+
+.right {
+  width: 70%;
+}
 
 .hero-content {
-  width: 60%;
   margin: 0 auto;
   display: table;
+  width: 90%;
+  padding: 4em;
+  .image {
+    padding-bottom: 20px;
+  }
   h1 {
     font-size: 48px;
+  }
+  h3 {
+    padding: 2px;
+    margin-bottom: 0px;
   }
   .heading, .subhead {
     margin: 0;
@@ -30,38 +94,42 @@ Home Hero Styling
   .hero-buttons {
     margin: 0 auto;
     display: table;
-    i {
-      padding-right: 0.5em;
-    }
   }
-  .image {
-  padding-top: 4em;
+  .svg-icon {
+    padding-right: 0px;
   }
+}
+
+.icon {
+  width: 16px;
+  height: auto;
+  padding: 5px;
+}
+
+.main-content {
+  margin: 0 auto;
+  display: table;
+  width: 90%;
+  padding: 4em;
 }
 
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
 }
 
 button.btn, input.btn {
-  padding: 12px 35px;
+  padding: 15px;
   margin: 2em 0.5em;
-  border: solid 1px #d5e0e7;
-  border-radius: 4px;
+  border: solid 1px #111;
+  border-radius: 50%;
   color: #2E4453;
+  background-color: #ffc62a;
   font-weight: 600;
   &:hover, &.btn-default:hover {
-    background-color: white;
-    border: solid 1px #b0c5d2;
-    -moz-box-shadow: 0 1px 0 #b0c5d2;
-    -webkit-box-shadow: 0 1px 0 #b0c5d2;
-    box-shadow: 0 1px 0 #b0c5d2;
-  }
-  i {
-    padding-right: 0.5em;
+    background-color: #ffc62a;
+    border: solid 1px #ffc62a;
   }
 }
 
@@ -99,32 +167,51 @@ img.thumbnail {
   grid-template-columns: repeat(3, 1fr);
   justify-content: center; /* centers items horizontally */
   align-items: center; /* centers items vertically */
+  row-gap: 75px;
+  padding: 20px;
 }
 
 .portfolio_item {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   margin: 4px;
   padding: 4px;
-  text-align: center;
 }
 
 .page_title {
   font-weight: 600;
-  color: #2E4453;
+  color: #111;
   margin: 3px;
   padding: 3px;
 }
 
-.gallery_card > div {
-  border: solid 1px #d5e0e7;
+.gallery_card {
+  background-color: #fbf8ec;
+  border: solid 2px #111;
   border-radius: 4px;
+  box-shadow: 5px 5px 0px #111;
   &:hover, &.btn-default:hover {
-    background-color: white;
-    border: solid 1px #b0c5d2;
-    -moz-box-shadow: 0 1px 0 #b0c5d2;
-    -webkit-box-shadow: 0 1px 0 #b0c5d2;
-    box-shadow: 0 1px 0 #b0c5d2;
+    background-color: #ffc62a;
+    border: solid 1px #ffc62a;
+  }
+}
+
+.gallery_card_top {
+}
+
+.gallery_card_bottom {
+  display: grid;
+  align-items: center;
+  height: 50px;
+  background-color: #fbf8ec;
+  border-top: solid 2px #111;
+  font-size: 14px;
+  text-align: center;
+  a {
+    text-decoration: none;
+  }
+  &:hover {
+    border-top: solid 1px #ffc62a;
   }
 }
 

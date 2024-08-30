@@ -5,21 +5,38 @@ layout: base
 <div class="home">
   <div class="container">
     <div class="row">
-      <div class="col-md-12">
+      <div class="column left">
         <div class="hero-content">
-          {{ content }}
           <div class="image">
-            <img src="/img/it_me.png" alt="A picture of me" class="center"/>
+            <img src="/img/portrait.png" alt="A portrait of Charlie" class="center"/>
           </div>
+          <h3 align="center">
+            <img class="icon" src="/img/icon-lightning-bolt.svg">Technical Documentation<img class="icon" src="/img/icon-lightning-bolt.svg">
+          </h3>
+          <h3 align="center">
+            <img class="icon" src="/img/icon-lightning-bolt.svg">User Experience<img class="icon" src="/img/icon-lightning-bolt.svg"><br>
+          </h3>
+          <h3 align="center">
+            <img class="icon" src="/img/icon-lightning-bolt.svg">Content Design<img class="icon" src="/img/icon-lightning-bolt.svg"><br>
+           </h3>
+           <h3 align="center">
+           <img class="icon" src="/img/icon-lightning-bolt.svg"> Multidisciplinary Art<img class="icon" src="/img/icon-lightning-bolt.svg"><br>
+          </h3>
 
           <div class="hero-buttons">
             {% if site.github_username != '' %}
-              <a href="https://github.com/{{ site.github_username }}"><button class="btn btn-default btn-lg"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg>Github</button></a>
+              <a href="https://github.com/{{ site.github_username }}"><button class="btn btn-default"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg></button></a>
             {% endif %}
             {% if site.linkedin != '' %}
-              <a href="https://{{ site.linkedin }}"><button class="btn btn-default btn-lg"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"></use></svg></i>LinkedIn</button></a>
+              <a href="https://{{ site.linkedin }}"><button class="btn btn-default"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"></use></svg></button></a>
             {% endif %}
           </div>
+        </div>
+      </div>
+
+      <div class="column right">
+        <div class="main-content">
+          {{ content }}
         </div>
       </div>
     </div>

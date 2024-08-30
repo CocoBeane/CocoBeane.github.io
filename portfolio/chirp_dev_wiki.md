@@ -1,12 +1,18 @@
 ---
 layout: page
-title: Tech Wiki for CHIRP Radio
+title: CHIRP Radio Tech Wiki
 permalink: /writing/chirp_dev_wiki
+display_order: 2
+tags:
+- Technical Writing
+- Project Management
+- Content Design
 images:
-- { filename: "../img/chirp_wiki_1.png", text: "Main page of the wiki", hero: true}
+- { filename: "../img/chirp_wiki_1.png", text: "Main page of the wiki"}
 - { filename: "../img/chirp_wiki_2.png", text: "The Quick-Start page"}
 - { filename: "../img/chirp_wiki_3.png", text: "Active Project pages are nested under their own category"}
 - { filename: "../img/chirp_wiki_4.png", text: "Readme instructions for contributing to the wiki"}
+thumbnail_image: ../img/chirp_wiki_thumbnail.png
 ---
 
 {%- include portfolio_gallery.html -%}
