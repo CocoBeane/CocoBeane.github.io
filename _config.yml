@@ -19,12 +19,12 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Hi, I'm Charlie.
-email: cornelia.q.smith@gmail.com
 description: ""
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://cocobeane.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: 'cocobeane'
 linkedin: 'www.linkedin.com/in/charlie-smith-872a4633'
+email: "charlie.quebec.sierra@gmail.com"
 
 # Build settings
 theme: minima
