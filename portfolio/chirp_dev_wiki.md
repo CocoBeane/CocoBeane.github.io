@@ -3,10 +3,7 @@ layout: page
 title: CHIRP Radio Tech Wiki
 permalink: /writing/chirp_dev_wiki
 display_order: 2
-tags:
-- Technical Writing
-- Project Management
-- Content Design
+tags: [Technical Writing, Project Management, Content Design]
 images:
 - { filename: "../img/chirp_wiki_1.png", text: "Main page of the wiki"}
 - { filename: "../img/chirp_wiki_2.png", text: "The Quick-Start page"}

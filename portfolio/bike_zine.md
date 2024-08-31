@@ -3,10 +3,7 @@ layout: page
 title: You Can't Do That on a Bicycle!
 permalink: /writing/bike_zine
 display_order: 4
-tags:
-- Creative Writing
-- Project Management
-- Content Design
+tags: [Creative Writing, Project Management,Content Design]
 images:
 - { filename: "../img/bike_zine_1.jpg", text: "Front Cover"}
 - { filename: "../img/bike_zine_2.jpg", text: "Two-page spread about cold-weather biking"}

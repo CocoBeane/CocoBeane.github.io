@@ -3,10 +3,7 @@ layout: page
 title: The Little Guide to Analog Photo Booths in Chicago
 permalink: /writing/photobooth_zine
 display_order: 1
-tags:
-- Creative Writing
-- Project Management
-- Content Design
+tags: [Creative Writing, Project Management, Content Design]
 images:
 - { filename: "../img/bike_zine_1.jpg", text: "Front Cover"}
 - { filename: "../img/bike_zine_2.jpg", text: "Two-page spread about cold-weather biking"}
