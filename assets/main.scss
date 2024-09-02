@@ -152,36 +152,18 @@ button.btn, input.btn {
 Image Galleries
 --------------------------------------------------------------*/
 
-.gallery_item {
-  width: 200px;
-  height: 200px;
-  margin: 4px;
-  padding: 4px;
-  border: solid 1px #d5e0e7;
-  border-radius: 4px;
-}
-
-img.thumbnail {
-  width: 100%;
-  height: 100%;
-  display: block;
-  object-fit: scale-down;
-}
-
-.photo_gallery {
-  float: right;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  justify-content: center; /* centers items horizontally */
-  align-items: center; /* centers items vertically */
-  margin: 10px;
+.page_title {
+  font-weight: 600;
+  color: #111;
+  margin: 3px;
+  padding: 3px;
 }
 
 .portfolio_gallery {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  justify-content: center; /* centers items horizontally */
-  align-items: center; /* centers items vertically */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  justify-content: center;
+  align-items: center;
   row-gap: 75px;
   padding: 20px;
 }
@@ -193,13 +175,6 @@ img.thumbnail {
   padding: 4px;
 }
 
-.page_title {
-  font-weight: 600;
-  color: #111;
-  margin: 3px;
-  padding: 3px;
-}
-
 .gallery_card {
   background-color: #fbf8ec;
   border: solid 2px #111;
@@ -209,9 +184,6 @@ img.thumbnail {
     background-color: #ffc62a;
     border: solid 1px #ffc62a;
   }
-}
-
-.gallery_card_top {
 }
 
 .gallery_card_bottom {
@@ -230,8 +202,99 @@ img.thumbnail {
   }
 }
 
+img.thumbnail {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: scale-down;
+}
+
+.page_gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  justify-content: center;
+  align-items: center;
+  row-gap: 75px;
+  padding: 20px;
+  background-color: #111;
+  border-radius: 30px;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page_gallery_item {
+  width: 200px;
+  height: 200px;
+  margin: 4px;
+  padding: 4px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page_card {
+  width: 200px;
+  height: 200px;
+  background-color: #fbf8ec;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  &:hover, &.btn-default:hover {
+    background-color: #ffc62a;
+    border: solid 2px #ffc62a;
+  }
+}
+
+img.page_thumbnail {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+/*--------------------------------------------------------------
+Portfolio Pages
+--------------------------------------------------------------*/
+
+.post-title {
+  font-size: 28;
+  text-align: center;
+}
+
 .back_link {
-  color: #2E4453;
+  color: #111;
+}
+
+.flip {
+  transform: scaleX(-1);
+}
+
+.header-icon {
+  width: 25px;
+  height: auto;
+  padding: 5px;
+}
+
+.post-content {
+  .content{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h3 {
+    margin-top: 20px;
+    color: #ffc62a;
+    border: 2px solid #111;
+    border-radius: 4px;
+    padding: 5px;
+    padding-left: 20px;
+  }
+  h4, p, ul, li {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 /*--------------------------------------------------------------

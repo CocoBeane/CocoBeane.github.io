@@ -1,34 +1,47 @@
 ---
 layout: page
-title: CHIRP Radio Tech Wiki
-permalink: /writing/chirp_dev_wiki
+title: CHIRP Tech Wiki
+permalink: /portfolio/chirp_dev_wiki
 display_order: 2
 tags: [Technical Writing, Project Management, Content Design]
 images:
-- { filename: "../img/chirp_wiki_1.png", text: "Main page of the wiki"}
-- { filename: "../img/chirp_wiki_2.png", text: "The Quick-Start page"}
-- { filename: "../img/chirp_wiki_3.png", text: "Active Project pages are nested under their own category"}
-- { filename: "../img/chirp_wiki_4.png", text: "Readme instructions for contributing to the wiki"}
-thumbnail_image: ../img/chirp_wiki_thumbnail.png
+- { filename: "../img/chirp_wiki/1.png", text: "Main page of the wiki"}
+- { filename: "../img/chirp_wiki/2.png", text: "The Quick-Start page"}
+- { filename: "../img/chirp_wiki/3.png", text: "Active Project pages are nested under their own category"}
+- { filename: "../img/chirp_wiki/4.png", text: "Readme instructions for contributing to the wiki"}
+thumbnail_image: ../img/chirp_wiki/thumbnail.png
 ---
+<div class="content" markdown=1>
+
+CHIRP is a volunteer-run non-profit radio station in Chicago. As with any organization that runs on volunteer power, CHIRP's Tech Department has high turnover, a mix of knowledge levels, and work rarely gets documented; this creates a lot of barriers to entry for newcomers. I took on this project with the goal of creating a home base for everything related to the Tech Department, making it much easier for people of all skill levels to get involved at their leisure. The wiki is a living document that is currently available to the public in its entirety at [chirpradio.github.io](https://chirpradio.github.io/).
+
+</div>
 
 {%- include portfolio_gallery.html -%}
 
-### About The Project
-CHIRP Radio is a volunteer-run non-profit radio station located on the North side of Chicago. As a volunteer at CHIRP, I dip my toes in a lot of different areas, including working with a team of tech-oriented folks who build applications that help keep the station running. To speed up the process of getting people involved, I created and maintain the CHIRP Radio Tech Team Wiki. The wiki is a living document that is currently available to the public in its entirety at [chirpradio.github.io](https://chirpradio.github.io/).
-
-### Audience
-* Members of the CHIRP Radio volunteer pool who are interested in getting involved with the tech team.
-* Existing members of the CHIRP tech team who need to familiar themselves with an active project.
+<div class="content" markdown=1>
 
 ### Skills Used
-* Hosted on Github Pages, using a docs-as-code approach.
-* Written in Jekyll and Ruby (first time using Jekyll.)
-* Written using Markdown.
-* Independent research exploring the active projects in the CHIRP Radio Github org and writing about them based on their code and existing documentation.
-* Soliciting feedback from members of the tech team (via Slack, Zoom, and face-to-face) and incorporating it into the work.
+* Independent research to determine an appropriate software solution
+* Github Pages
+* Jekyll
+* Ruby
+* Markdown
+* HTML and CSS
+
+### Process
+#### 1. Audit of Existing Documentation
+I began this project by putting out a call to existing volunteers for any documentation they were aware of. I scoured volunteer training materials and CHIRP's Github instance, and I compiled a spreadsheet of everything I could gather. Then, I did a small audit to determine which items were still relevant, which items could be combined, etc.
+#### 2. Research and Format Exploration
+Using the data in my audit spreadsheet, I researched several software solutions to determine the best place to host our new wiki. I ended up selecting a docs-as-code approach using Github pages. This was due to its price (free!), ability to customize, and easy integration with existing CHIRP resources hosted on Github.
+#### 3. Building the New Wiki
+I set up the wiki with a simple documentation-focused theme, then created a layout and placeholder pages, which I filled in over the course of a few weeks. Some of the content was simply ported over from existing documentation, and some was written up from scratch.
+#### 4. Review and rollout
+Once the wiki was live, I demo'd it at a meeting for feedback. I added a readme file with setup instructions, and opened up the wiki for others to contribute.
 
 ### Considerations and Challenges
+
+Audit and rewrite existing documentation
 
 #### The wiki must be easy for anyone to skim over quickly.
 Being an organization made up entirely of volunteers, there is a lot of turn-over; individual involvement waxes and wanes depending on people's personal schedules and interest. Maintaining thorough reference documentation is a key factor in keeping volunteers engaged, getting things done quickly, and combatting attrition.
@@ -40,3 +53,4 @@ I researched several CMS-style tools for this project. The biggest factor to con
 
 #### The wiki must match CHIRP's voice and branding.
 According to the CHIRP branding guide, the CHIRP voice is "conversational, friendly, and enthusiastic"; it can be "jokey and silly, but not unkind", and should be "authoritative with its subject matter." I followed these guidelines when writing the content. To keep in line with visual branding, I used CHIRP's logo and favicon, and kept the UI clean and minimal.
+</div>

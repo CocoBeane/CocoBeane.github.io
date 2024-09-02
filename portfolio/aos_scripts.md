@@ -1,29 +1,48 @@
 ---
 layout: page
 title: App Ops Script Runbook
-permalink: /writing/aos_scripts
+permalink: /portfolio/aos_scripts
 elevator_pitch: "An internal reference manual for non-technical workers to run Ruby"
 display_order: 3
 tags: [Technical Writing, Project Management]
 images:
-- { filename: "../img/aos_1.png", text: "The main directory and basics page of the runbook"}
-thumbnail_image: ../img/aos_thumbnail.jpg
+- { filename: "../img/aos/1.png", text: "The main directory and basics page of the runbook"}
+thumbnail_image: ../img/aos/thumbnail.jpg
 ---
+
+<div class="content" markdown=1>
+
+I created this internal runbook when I was Team Lead of the Application Operations team at Groupon (abbreviated “App Ops”.) The App Ops team inherited a library of 30+ vital Ruby support scripts, but did not have the technical knowledge to run them. I took ownership of learning the process from subject matter experts, creating documentation for it, and then building a standard operating procedure for the team and launching it as a pilot program. The runbook was used routinely throughout the day by the team for many years.
+
+</div>
 
 {%- include portfolio_gallery.html -%}
 
-### About The Project
-I created this internal runbook when I was Team Lead of the Application Operations Support team at Groupon (abbreviated "AOS".) The AOS team inherited a library of 30+ vital support scripts, but did not know how to run them. I had the most technical experience on the team, so I took ownership of learning the process and creating documentation for it. Research for this runbook included shadowing Subject-Matter Experts and learning Ruby. The runbook was used on a daily basis by the AOS team from about 2017 until 2021. Unfortunately, a lot of the content of the runbook contains proprietary information, so I'm not able to include many image samples.
-
-### Audience
-The AOS team This team consisted of 10-12 engineering support agents located in the United States, Ireland, and India. Team members had no formal engineering background; their expertise was in incident management, user interface troubleshooting, and communicating with stakeholders. None of them had run a Ruby script before, and most of them had never even seen a command line prompt.
+<div class="content" markdown=1>
 
 ### Skills Used
-* Atlassian Confluence, using Markdown for formatting.
-* Shadowing subject-matter experts.
-* Independent reasearch to teach myself Ruby on Rails, Command Line, and the basics of working on remote servers via SSH.
+* Shadowed subject-matter experts
+* Independent study of Ruby on Rails, Command Line Tools, Git, and the basics of working on remote servers via SSH
+* Atlassian Confluence
+* Markdown
+
+### Process
+#### 1. Shadowing and Independent Study
+The scripts the App Ops team inhereted were previously written and executed by a small team of two developers. I set up twice-weekly shadowing and reverse-shadowing sessions with them to learn their existing process so I could build off of it. Simultaneous to this, I took several online courses in Ruby on Rails, Command Line Tools, Git, and other related skills.
+#### 2. Documentation
+Using the information gathered in my shadowing sessions, I created documentation pages for each script, and put together a training program that the App Ops team could use to learn basic coding skills.
+#### 3. Process Creation
+I took on the task of being the sole script runner for several weeks as I refined my new process and its documentation, and worked out any kinks with the dev team.
+#### 4. Pilot program and Revisions
+Once everything was running smoothly with the new process and documentation, I launched a pilot program with a group of two volunteers from the App Ops team. I trained them in person, answered questions, and refined the runbook and process based on their feedback.
+#### 5. Full roll-out
+The pilot program was deemed a success after several weeks, and the finished process was rolled out to the rest of the team.
 
 ### Considerations and Challenges
+
+Audience
+Design and implement a brand new process for the App Ops team to easily run Ruby support scripts. The team consists of 10-12 support agents located across the globe. The agents have no formal engineering background and minimal technical knowledge.
+
 This rubook was built with the intention of serving several functions. It needed to contain:
 * A self-training manual for absolute beginners that familiarized them with basics such as "what is the command line?" and "what does it mean to SSH to a remote server?"
 * Fool-proof, step-by-step instructions for executing each of the 30+ unique support scripts.
@@ -33,3 +52,4 @@ On top of that, the manual had to fit within the style of the team's existing wo
 * Located in the team's existing documentation resource, which was in Atlassian Confluence
 * Easy to build upon when new scripts needed to be onboarded by the team.
 * Written in English with plain wording, and little-to-no technical terminology, slang, or idioms (global team, remember?)
+</div>

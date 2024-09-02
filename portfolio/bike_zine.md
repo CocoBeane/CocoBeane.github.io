@@ -1,33 +1,48 @@
 ---
 layout: page
 title: You Can't Do That on a Bicycle!
-permalink: /writing/bike_zine
+permalink: /portfolio/bike_zine
 display_order: 4
 tags: [Creative Writing, Project Management,Content Design]
 images:
-- { filename: "../img/bike_zine_1.jpg", text: "Front Cover"}
-- { filename: "../img/bike_zine_2.jpg", text: "Two-page spread about cold-weather biking"}
-- { filename: "../img/bike_zine_3.jpg", text: "Two-page spread about biking in the rain or snow"}
-- { filename: "../img/bike_zine_4.jpg", text: "Two-page spread about carrying cargo"}
-thumbnail_image: ../img/bike_zine_thumbnail.png
+- { filename: "../img/bike_zine/1.jpg", text: "Front Cover"}
+- { filename: "../img/bike_zine/2.jpg", text: "Two-page spread about cold-weather biking"}
+- { filename: "../img/bike_zine/3.jpg", text: "Two-page spread about biking in the rain or snow"}
+- { filename: "../img/bike_zine/4.jpg", text: "Two-page spread about carrying cargo"}
+thumbnail_image: ../img/bike_zine/thumbnail.png
 ---
+
+<div class="content" markdown=1>
+
+"You Can't Do That on a Bicycle!" is an original zine (a DIY self-published book) that I created for a digital typography and self-publishing class I took at Lillstreet Art Studio in Chicago. The finished product will be sold locally at stores such as Quimby's Books, Chicago Comics, and Alley Cat Comics.
+
+</div>
 
 {%- include portfolio_gallery.html -%}
 
-### About The Project
-A zine is a term for a self-published mini magazine or booklet. This one was created for a digital typography and self-publishing class I took at Lillstreet Art Studio in Chicago. I continued working on it after the class ended, with the goal of eventually printing and assembling the final product to sell on consignment at local stores that have a section for self-published work.
-
-### Audience
-This zine is primarily targeted at people who bike casually in the city of Chicago, and want to find ways to work biking into their life more, but are afraid of the challenges they might run into.
+<div class ="content" markdown=1>
 
 ### Skills Used
-* Adobe InDesign for page layout, using consistent visual, type, and paragraph styles across the document to keep cohesion (first time using InDesign.)
-* Adobe Photoshop, for scanning and cleaning up the line-art, which I drew by hand.
-* Adobe Illustrator, for turning the line-art into vector graphics and editing them (first time using Illustrator.)
-* Independently studied graphic design basics, choosing typefaces.
-* Learned about choosing appropriate images for page backgrounds and textures, ensuring everything is appropriately licensed for free use or credited where necessary.
-* Gathered data from online biking forums I frequent, and interviewed biking friends for their tips and equipment suggestions so I had some variety in the information I was presenting.
-* Accepted feedback from friends and classmates and incorporated it into the finished product.
+* Independent online research
+* In-person interviews with subject-matter experts
+* Adobe InDesign
+* Adobe Photoshop
+* Adobe Illustrator
+* Created original artwork, drawn and inked by hand, then digitally vectorized
+
+### Process
+#### 1. Outlining
+I started with a rough outline of the pages I wanted to include based on the information I wanted to present. This is where I decided how to organize the information. In order to print properly in a bi-fold format, the zine needed to have a number of pages that was divisible by four, so I had to be mindful of that when planning.
+#### 2. Layouts
+Using Adobe InDesign, I created the basic layout for each page in my outline. I added backgrounds and page titles, and placed text boxes with placeholder content to visualize the look of the zine. This is also where I decided on a color scheme, fonts, and other text styling.
+#### 3. Feedback and Revisions
+I solicited feedback from friends and subject matter experts on the basic content and layout of the book, then made revisions. This resulted in a page being added, which threw off my page count, so I re-did some of the layouts to compensate.
+#### 3. Content Creation
+Throughout the next two weeks, I slowly filled in the content of each page layout in InDesign. The illustrations were hand-drawn, inked, and then scanned and turned into vector art using Adobe Illustrator.
+#### 5. Test Print and Second Round of Revisions
+I created a test print on the printer I would be using for the final project. This allowed me to fix any technical issues with margins, color, or content placement. I also used the test print to solicit more feedback and make a few final revisions.
+#### 6. Final Print
+The final version was printed in class, assembled, and distributed to classmates. Based on additional feedback I have received, I made more revisions and will do a second, revised printing in the future before I commission it for sale.
 
 ### Considerations and Challenges
 
@@ -46,3 +61,5 @@ All the information in each individual page of the zine needed to fit within hal
 I chose black and white line-art specifically to cut down on cost and time. The entire zine was originally going to be black and white for the same reason, but I ultimately decided to add one color (a bright yellow highlighter effect) to bring attention to some areas. It sacrificed a small amount of the cost-per-page I was saving by printing in black and white, but the zine gained a lot of visual appeal.
 
 With no marketing or built-in distribution method, a zine has to stand out on a shelf of similar work. It must be eye-catching in order to entice the casual book store browser to first pick it up off the shelf. Then, it must be packed with information, engaging, and entertaining to encourage the reader not only to give it a quick flip, but to also determine that it requires a more thorough read and should be purchased. I hope these sample pages leave you wanting a little bit more.
+
+</div>
