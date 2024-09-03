@@ -5,9 +5,12 @@ permalink: /about
 include_in_nav: true
 ---
 
-## About me (the professional)
+<div class="post-content" markdown=1>
+<div class="content" markdown=1>
 
-<h3><a class="resume" href="img/Charlie_Smith_Base_Resume.pdf" data-fancybox="gallery">View my Resume</a></h3>
+### About me (the professional)
+
+<h4><a class="resume" href="img/Charlie_Smith_Base_Resume.pdf" data-fancybox="gallery">View my Resume</a></h4>
 
 My ability to easily adapt and pick up new skills has made me a shapeshifter in the professional world. I have been a TV producer, writing tutor, data-entry drone, freelance content writer, bakery assistant, IT support specialist, full-stack software engineer, and more.
 
@@ -17,7 +20,7 @@ I pride myself on being a strong communicator, detail-oriented, highly organized
 
 <br>
 
-## About Me (the person)
+### About Me (the person)
 
 How do you talk about yourself? Ok, how about the basics first? I'm a native Michigander and now long-time Chicagoan. I use they/them pronouns. I like sour gummy worms and Mexican food. Let's jump over some of the stuff in the middle. How about some big-picture concepts I value?
 
@@ -29,4 +32,6 @@ How do you talk about yourself? Ok, how about the basics first? I'm a native Mic
 
 **Environment.** The term "common good" doesn't only mean what's good for humans. I believe we have a responsibility to the environment, as well as to others. I love seeing nature and humanity intersect in harmonious ways. On a smaller scale, I love spending time outdoors. I love the smell of wet grass. I get excited about native biodiversity, community gardening, and just seeing the seasons change.
 
+</div>
+</div>
 <script src="../assets/activate_fancybox.js"></script>
