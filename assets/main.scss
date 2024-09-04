@@ -12,6 +12,14 @@ a:visited {
   color: #111;
 }
 
+button {
+  background-color: #fbf8ec;
+  border: 2px solid lighten($text-color, 40%);
+  border-radius: 4px;
+}
+
+
+
 /*--------------------------------------------------------------
 Header
 --------------------------------------------------------------*/
@@ -43,6 +51,15 @@ Header
 /*--------------------------------------------------------------
 Footer
 --------------------------------------------------------------*/
+
+#back-to-top {
+  float: right;
+  width: 10%;
+  padding: 5px;
+  margin: 10px;  
+  color: lighten($text-color, 40%);
+  text-decoration: none;
+}
 
 .footer-col {
   float: none;
@@ -312,6 +329,7 @@ form {
    margin: 20px auto;
   
   input, textarea {
+    font-family: sans-serif;
      border:0; outline:0;
      padding: 1em;
      border-radius: (8px);
