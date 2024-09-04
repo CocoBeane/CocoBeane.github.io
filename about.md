@@ -10,7 +10,7 @@ include_in_nav: true
 
 ### About me (the professional)
 
-<h4><a class="resume" href="img/Charlie_Smith_Base_Resume.pdf" data-fancybox="gallery">View my Resume</a></h4>
+<h4><a class="resume" href="img/resume.pdf" data-fancybox="gallery">View my Resume</a></h4>
 
 My ability to easily adapt and pick up new skills has made me a shapeshifter in the professional world. I have been a TV producer, writing tutor, data-entry drone, freelance content writer, bakery assistant, IT support specialist, full-stack software engineer, and more.
 
