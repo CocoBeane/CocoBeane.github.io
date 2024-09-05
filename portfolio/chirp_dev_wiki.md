@@ -35,7 +35,7 @@ CHIRP is a volunteer-run non-profit radio station in Chicago. As with any organi
 ### Considerations and Challenges
 
 #### The wiki must be easy for anyone to skim over quickly
-Being an organization made up entirely of volunteers, there is a lot of turn-over; individual involvement waxes and wanes depending on people's personal schedules and interest. Maintaining simple and straightforward reference documentation is a key factor in keeping volunteers engaged, getting things done quickly, and combatting attrition.
+Being an organization made up entirely of volunteers, there is a lot of turn-over; individual involvement waxes and wanes depending on people's personal schedules and interest. Maintaining simple and straightforward reference documentation is a key factor in keeping volunteers engaged, getting things done quickly, and combating attrition.
 
 To aid in simplicity, I began the wiki with a "quick-start" page. The "quick-start" page contains all of the most vital information about the department, along with links to things people need quick access to, like our Github and Slack instances. From there, I created individual pages for each project currently in active development. The project pages have links to all the relevant things to read, install, or get familiar with for that project.
 

@@ -34,21 +34,21 @@ I created this internal runbook when I was Team Lead of the Application Operatio
 The App Ops team consisted of 10-12 engineering support agents located in the United States, Ireland, and India. The members of the team had no formal engineering background; their expertise was in incident management, user interface troubleshooting, and communicating with stakeholders. None of them had run a Ruby script before, and most of them had never even seen a command line prompt.
 
 Keeping this in mind, I decided the runbook must contain:
-* A self-training manual for absolute beginners that familiarized them with basics such as "what is the command line?" and "what does it mean to SSH to a remote server?"
+* A self-training manual for absolute beginners that could familiarize them with basics such as "what is the command line?" and "what does it mean to SSH to a remote server?"
 * Visual step-by-step instructions for executing each of the 30+ unique support scripts, including what inputs to provide and what output to expect
 * Clear, concise troubleshooting steps and an escalation protocol to follow if anything went wrong during a script execution
 
-I also had to ensure it was written in English with plain wording, and little-to-no technical terminology, slang, or idioms, due to the global nature of the team.
+It also had to be written in English with plain wording, and little-to-no technical terminology, slang, or idioms, due to the global nature of the team.
 
 #### The runbook must fit within the style of the team's existing work
-App Ops had a clearly established workflow for all their other tasks. All of their documentation for these tasks lived in a designated instance of Atlassian Confluence, and was laid out according to certain style guidelines. For ease of adaptability, I needed to design the entire process to fit as closely with their existing processes as possible, and organize the documentation similarly to their other runbooks.
+App Ops had a clearly established workflow for all their other tasks. Documentation for these tasks lived in a designated space in Atlassian Confluence, and was laid out and labeled according to certain style guidelines. For ease of adaptability, I needed to design the entire process to fit as closely with their existing processes as possible, and organize the documentation similarly to their other runbooks.
 
 #### The runbook must be easy to build upon for future growth
 The world of Groupon was constantly evolving, so it was not uncommon for new support scripts to be created as issues arose. Anticipating that new scripts would need to be written and/or onboarded by the team, it was of utmost importance that this new process and its documentation be easy to build upon. I designed template pages for the runbook that could be cloned and filled in with content whenever a new script was added, and wrote up a standard operating procedure for this use case.
 
 ### Process
 #### 1. Shadowing and Independent Study
-The scripts the App Ops team inhereted were previously written and executed by a team of two developers. I set up twice-weekly shadowing and reverse-shadowing sessions with them to learn their existing process so I could build off of it. Simultaneous to this, I took several self-guided online courses in Ruby on Rails, Command Line Tools, Git, and other related skills. This process took several months.
+The scripts the App Ops team inherited were previously written and executed by a team of two developers. I set up twice-weekly shadowing and reverse-shadowing sessions with them to learn their existing process so I could build off of it. Simultaneous to this, I took several self-guided online courses in Ruby on Rails, Command Line Tools, Git, and other related skills. This process took several months.
 #### 2. Creating Documentation
 Using the information gathered in my shadowing sessions and research, I created documentation pages for each script and put together a training program that the App Ops team could use to learn basic coding skills.
 #### 3. Process Refinement

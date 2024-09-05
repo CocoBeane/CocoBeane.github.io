@@ -35,7 +35,7 @@ thumbnail_image: ../img/photobooth_zine/thumbnail.png
 ### Considerations and Challenges
 
 #### The zine should have a kitschy, retro feel to it
-Like the analog photo booths that inspired its creation, I wanted this zine to have a specific analog visual appeal. However, for my own sanity, I wanted to design it digitally. Using a risograph printer felt like the perfect marriage of these these two ideas. A Risograph printer is sort of like a cross between a photocopier and an offset printing press. It can print from digital files, but the results it produces have a certain unique, less-than-perfect physical quality to them. With only a rough outline of the zine created, I decided to execute this as my final project in a Risograph printing class I was taking.
+Like the analog photo booths that inspired its creation, I wanted this zine to have a specific analog visual appeal. However, for my own sanity, I wanted to design it digitally. Using a risograph printer felt like the perfect marriage of these two ideas. A Risograph printer is sort of like a cross between a photocopier and an offset printing press. It can print from digital files, but the results it produces have a certain unique, less-than-perfect physical quality to them. With only a rough outline of the zine created, I decided to execute this as my final project in a Risograph printing class I was taking.
 
 #### The zine must be designed within a limited Risograph color palette
 Risograph printers can only print one color of ink at a time, and the facility where I was printing my zine only had certain ink colors available. I decided on a faux-CMYK color palette of fluorescent pink, cornflower blue, sunflower yellow, and black. This allowed me to print the zine's photographs in an approximation of full-color, but also limited the colors I could use for the illustrations I was designing. To ensure I stayed within my palette, I set up my files in Adobe Illustrator with the exact ink colors I would be printing with, and designed with those constraints in mind.
@@ -43,7 +43,7 @@ Risograph printers can only print one color of ink at a time, and the facility w
 #### The zine must be printed on a very strict schedule
 Due to facility limitations, I only had access to the printer for about 2 hours per week over the course of three weeks. I began the project with these constraints in mind, and set a very strict schedule for writing, designing, and printing to ensure I finished in time.
 
-I was able to fit the content into 20 pages of a bi-fold format, meaning each "page" is equal to half a sheet of regular 8.5"x11" paper. Utilizing the front and back of each piece of paper, this came out to five sheets of paper per zine. Each paper had to be printed four times on the front and four times on the back (one print for each color.) It was definitely a job for a spreadsheet, which I've included in the gallery above!
+I was able to fit the content into 20 pages in a bi-fold format, meaning each "page" is equal to half a sheet of regular 8.5"x11" paper. Utilizing the front and back of each piece of paper, this came out to five sheets of paper per zine. Each paper had to be printed four times on the front and four times on the back (one print for each color.) It was definitely a job for a spreadsheet, which I've included in the gallery above!
 
 ### Process
 Due to time constraints, much of the process steps for this project were performed simultaneously. This required meticulous planning and organization! Ahh, the beloved spreadsheet!
