@@ -14,7 +14,7 @@ thumbnail_image: ../img/bike_zine/thumbnail.png
 
 <div class="content" markdown=1>
 
-"You Can't Do That on a Bicycle!" is an original zine (a DIY self-published book) that I created for a digital typography and self-publishing class I took at Lillstreet Art Studio in Chicago. The finished product will be sold locally on commission at stores such as Quimby's Books, Chicago Comics, and Alley Cat Comics.
+"You Can't Do That on a Bicycle!" is an original zine (a DIY self-published book) that I created for a digital typography and self-publishing class I took at Lillstreet Art Studio in Chicago. The finished product will be available for purchase at stores such as Quimby's Books, Chicago Comics, and Alley Cat Comics.
 
 </div>
 
