@@ -5,7 +5,11 @@ permalink: /portfolio/photobooth_zine
 display_order: 1
 tags: [Creative Writing, Project Management, Content Design]
 images:
-- { filename: "../img/photobooth_zine/1.png", text: "Front Cover"}
+- { filename: "../img/photobooth_zine/1.png", text: "Front and Back Cover"}
+- { filename: "../img/photobooth_zine/2.png", text: "Page spread: identification and how to use"}
+- { filename: "../img/photobooth_zine/3.png", text: "Page spread: map of locations"}
+- { filename: "../img/photobooth_zine/4.png", text: "Page spread: Novelty Golf and Holiday Club"}
+- { filename: "../img/photobooth_zine/5.png", text: "Planning Spreadsheet in use"}
 thumbnail_image: ../img/photobooth_zine/thumbnail.png
 ---
 <div class="content" markdown=1>
