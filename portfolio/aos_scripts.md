@@ -12,7 +12,7 @@ thumbnail_image: ../img/aos/thumbnail.jpg
 
 <div class="content" markdown=1>
 
-I created this internal runbook when I was Team Lead of the Application Operations team at Groupon (abbreviated “App Ops”.) The App Ops team inherited a library of 30+ Ruby support scripts that were vital to business operations at the company, but we did not have the technical knowledge to run them. I took ownership of learning the existing process, simplified it, and then created a runbook and a training program for the rest of the team. This documentation was used faithfully for many years, even long after my departure. Unfortunately, there aren't many images of the runbook remaining to include here.
+The App Ops Script Runbook was a techncial support manual that aided non-technical employees in running a complex Ruby script library. As Team Lead of the Application Operations team (“App Ops”) at Groupon, we inherited a library of 30+ scripts that were vital to business operations, but did not have the technical knowledge to run them. I learned the process, simplified it, and then created a runbook and training program for it. This documentation was used faithfully for many years. Unfortunately, there aren't many images of the runbook remaining, as it was deprecated in 2021.
 
 </div>
 
@@ -22,9 +22,9 @@ I created this internal runbook when I was Team Lead of the Application Operatio
 
 ### Skills Used
 * Shadowing subject-matter experts
-* Independent study of Ruby on Rails, Command Line Tools, Git, and the basics of working on remote servers via SSH
+* Independent study of technical concepts
 * Technical writing
-* Content Layout and organization
+* Content design
 * Atlassian Confluence
 * Markdown
 

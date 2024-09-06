@@ -14,7 +14,7 @@ thumbnail_image: ../img/photobooth_zine/thumbnail.png
 ---
 <div class="content" markdown=1>
 
-"The Little Guide to Analog Photo Booths in Chicago" is an original zine (a DIY self-published book) that I created and printed on a Risograph printer. I've been interested in analog photo booths for a long time, so I started a personal project to find and document all the analog booths in Chicago. Due to growing interest in the project from some of my friends, I decided to turn the fruits of my quest into an informative zine. The finished product will be available for purchase at local stores in Chicago such as Quimby's Books, Chicago Comics, and Alley Cat Comics.
+"The Little Guide to Analog Photo Booths in Chicago" is an original zine (a DIY self-published book) created and printed on a Risograph printer. In 2023, I started a personal project to find and document analog booths in Chicago. Due to growing interest in the project, I turned the fruits of my quest into an informative zine. The finished product will be available for purchase at local stores in Chicago such as Quimby's Books, Chicago Comics, and Alley Cat Comics.
 
 </div>
 
@@ -25,12 +25,13 @@ thumbnail_image: ../img/photobooth_zine/thumbnail.png
 ### Skills Used
 * Project management
 * Time management
+* Content design
 * Creative writing
-* Independent research, both online and in-person
-* Interviews with subject-matter experts
+* Independent research
+* Talking with subject-matter experts
 * Adobe Illustrator
 * Adobe Photoshop
-* Spectrolite
+* Spectrolite for Risograph color separations
 
 ### Considerations and Challenges
 

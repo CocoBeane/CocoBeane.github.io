@@ -13,7 +13,7 @@ thumbnail_image: ../img/chirp_wiki/thumbnail.png
 ---
 <div class="content" markdown=1>
 
-CHIRP is a volunteer-run non-profit radio station in Chicago. As with any organization that runs on volunteer power, CHIRP's Tech Department has high turnover, a mix of knowledge levels, and work rarely gets documented; this creates a lot of barriers to entry for newcomers. I took on this project with the goal of creating a home base for everything related to the Tech Department, making it much easier for people of all skill levels to get involved at their leisure. The wiki is a living document that is currently available to the public in its entirety at [chirpradio.github.io](https://chirpradio.github.io/).
+CHIRP is a volunteer-run non-profit radio station in Chicago. Like any organization that runs on volunteer power, CHIRP's Tech Department has high turnover and work rarely gets documented; this creates barriers to entry for newcomers. I took on this project with the goal of creating a home base for everything related to the CHIRP Tech Department, making it easier for people of all skill levels to get involved. The wiki is a living document currently available to the public in its entirety at [chirpradio.github.io](https://chirpradio.github.io/).
 
 </div>
 
@@ -22,10 +22,10 @@ CHIRP is a volunteer-run non-profit radio station in Chicago. As with any organi
 <div class="content" markdown=1>
 
 ### Skills Used
-* Independent research to determine an appropriate software solution
-* Documentation auditing
-* Technical writing
+* Auditing existing documentation
 * Project management
+* Technical writing
+* Content design
 * Github Pages
 * Jekyll
 * Ruby
