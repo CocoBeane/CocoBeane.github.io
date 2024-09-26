@@ -7,6 +7,7 @@ display_order: 3
 tags: [Technical Writing, Project Management]
 images:
 - { filename: "../img/aos/1.png", text: "The main directory and basics page of the runbook in Confluence"}
+- { filename: "../img/aos/2.png", text: "An example of one of the script how-to pages"}
 thumbnail_image: ../img/aos/thumbnail.jpg
 ---
 
